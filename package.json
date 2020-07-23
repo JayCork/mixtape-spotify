@@ -24,6 +24,7 @@
     "test:c": "react-scripts test --watchAll=false --coverage",
     "eject": "react-scripts eject"
   },
+
   "eslintConfig": {
     "extends": "react-app"
   },
