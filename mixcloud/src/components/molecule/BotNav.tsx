@@ -1,20 +1,20 @@
 import React from 'react';
-import BotNav from '@material-ui/core/BottomNavigation';
+import BottomNavigation from '@material-ui/core/BottomNavigation';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import {BotNavAction} from '../atom/BotNavAction'
 import VisibilityIcon from '@material-ui/icons/Visibility';
 
-export default function LabelBottomNavigation() {
+export default function BotNav() {
     return (
-        <BotNav>
+        <BottomNavigation component={'div'}>
             <BotNavAction label={'Source Code'}
-                          value={'git'} href={'https://github.com/JayCork/mixtape-spotify'}
-                          icon={<GitHubIcon/>}
+                          value={'gitHubSrc'} href={'https://github.com/JayCork/mixtape-spotify'}
+                          icon={<GitHubIcon component={'span'}/>}
             />
-            <BotNavAction label={'Sonar cloud'}
-                          value={'sonarcloud'} href={'https://sonarcloud.io/dashboard?id=JayCork_mixtape-spotify'}
-                          icon={<VisibilityIcon/>}
+            <BotNavAction label={'SonarCloud'}
+                          value={'sonarCloud'} href={'https://sonarcloud.io/dashboard?id=JayCork_mixtape-spotify'}
+                          icon={<VisibilityIcon component={'span'}/>}
             />
-        </BotNav>
+        </BottomNavigation>
     );
 }
