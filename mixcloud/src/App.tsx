@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import LabelBottomNavigation from "./components/molecule/bottomNavigation";
+import LabelBottomNavigation from "./components/molecule/BotNav";
 
 function App() {
   return (
