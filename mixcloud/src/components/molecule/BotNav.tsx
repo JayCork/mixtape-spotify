@@ -9,11 +9,11 @@ export default function BotNav() {
         <BottomNavigation component={'div'}>
             <BotNavAction label={'Source Code'}
                           value={'gitHubSrc'} href={'https://github.com/JayCork/mixtape-spotify'}
-                          icon={<GitHubIcon component={'span'}/>}
+                          icon={<svg><GitHubIcon component={'span'}/></svg>}
             />
             <BotNavAction label={'SonarCloud'}
                           value={'sonarCloud'} href={'https://sonarcloud.io/dashboard?id=JayCork_mixtape-spotify'}
-                          icon={<VisibilityIcon component={'span'}/>}
+                          icon={<svg><VisibilityIcon component={'span'}/></svg>}
             />
         </BottomNavigation>
     );

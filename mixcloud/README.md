@@ -1,3 +1,5 @@
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=JayCork_mixtape-spotify&metric=code_smells)](https://sonarcloud.io/dashboard?id=JayCork_mixtape-spotify)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
